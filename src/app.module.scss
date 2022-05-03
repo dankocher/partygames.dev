@@ -1,0 +1,54 @@
+@import "./styles/foundations.scss";
+
+.logo {
+  position: absolute;
+  top: 68px;
+  left: 72px;
+
+  top: autoResize(16px, 68px, $phoneWidth) !important;
+  left: autoResize(16px, 72px, $phoneWidth) !important;
+
+  height: 60px;
+  width: 194px;
+
+  height: autoResize(46px, 60px, $phoneWidth) !important;
+  width: autoResize(134px, 194px, $phoneWidth) !important;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  position: relative;
+
+  height: 100vh;
+  max-height: 100vh;
+  min-height: 1080px;
+  min-width: 1920px;
+
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
+.bgContainer {
+  position: relative;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background: $mainBG;
+}
+
+.contentContainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

@@ -1,25 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styles from "./app.module.scss";
+
+import GenericPage from "./components/GenericPage";
+
+import { GenericPageProps } from "./components/GenericPage/genericPage.interface";
+
+import mainLogo from "./assets/svg/mainLogo.svg";
+import { data } from "./data/data";
 
 function App() {
+  const altMainLogo = "PARTY GAMES Logo";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div
+        className={styles.bgContainer}
+        style={{ maxHeight: `calc(100vh * ${data.length})` }}
+      >
+        {(data as GenericPageProps[]).map((item, index) => (
+          <div key={`background-${index}`} className={styles.content}>
+            <img src={item.background} className={styles.background} />
+          </div>
+        ))}
+      </div>
+      <div className={styles.contentContainer}>
+        {(data as GenericPageProps[]).map((item, index) => (
+          <GenericPage key={`content-${index}`} {...item} />
+        ))}
+      </div>
+      <img src={mainLogo} alt={altMainLogo} className={styles.logo} />
+    </>
   );
 }
 

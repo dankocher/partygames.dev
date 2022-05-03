@@ -1,0 +1,50 @@
+@import "../../styles/foundations.scss";
+
+.storeLink {
+  position: relative;
+  display: flex;
+
+  .link {
+    height: 72px;
+    width: 240px;
+
+    height: autoResize(40px, 72px, $phoneWidth) !important;
+    width: autoResize(128px, 240px, $phoneWidth) !important;
+
+    padding-right: 14px;
+    padding-left: 16px;
+    padding-right: autoResize(8px, 14px, $phoneWidth) !important;
+    padding-left: autoResize(8px, 16px, $phoneWidth) !important;
+
+    display: flex;
+    align-items: center;
+    border-radius: $borderRadius;
+    text-decoration: none;
+    background-color: $white;
+    color: $textColor;
+
+    &:not(:last-child) {
+      margin-right: 28px;
+    }
+  }
+
+  .icon {
+    height: 52px;
+    width: 52px;
+    height: autoResize(28px, 52px, $phoneWidth) !important;
+    width: autoResize(28px, 52px, $phoneWidth) !important;
+
+    display: flex;
+    margin-right: 8px;
+    margin-right: autoResize(4px, 8px, $phoneWidth) !important;
+  }
+
+  .text {
+    text-align: left;
+    user-select: none;
+
+    :not(:last-child) {
+      margin-bottom: 1px;
+    }
+  }
+}

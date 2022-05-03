@@ -1,0 +1,63 @@
+@import "foundations.scss";
+@import "fonts.scss";
+
+//Links fonts
+
+.downFont {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+
+  font-size: autoResize(9px, 16px, $phoneWidth) !important;
+  line-height: autoResize(11px, 20px, $phoneWidth) !important;
+}
+
+.smallFont {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+
+  font-size: 14px;
+  line-height: 15px;
+
+  font-size: autoResize(14px, 26px, $phoneWidth) !important;
+  line-height: autoResize(15px, 28px, $phoneWidth) !important;
+}
+
+//Main page fonts
+
+.mainBigTitle {
+  font-family: "BebasNeue", sans-serif;
+  font-weight: 400;
+  font-size: 124px;
+  line-height: 120px;
+  font-size: autoResize(64px, 124px, $phoneWidth) !important;
+  line-height: autoResize(64px, 120px, $phoneWidth) !important;
+}
+
+.mainSubtitleBlack {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  font-size: autoResize(14px, 18px, $phoneWidth) !important;
+  line-height: autoResize(17px, 24px, $phoneWidth) !important;
+  @media (max-width: $phoneWidth) {
+    font-size: autoResize(12px, 14px, $phoneWidth) !important;
+    line-height: autoResize(14px, 17px, $phoneWidth) !important;
+  }
+}
+
+.mainSubtitleSemibold {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+  font-size: autoResize(14px, 18px, $phoneWidth) !important;
+  line-height: autoResize(17px, 24px, $phoneWidth) !important;
+
+  @media (max-width: $phoneWidth) {
+    font-size: autoResize(12px, 14px, $phoneWidth) !important;
+    line-height: autoResize(14px, 17px, $phoneWidth) !important;
+  }
+}

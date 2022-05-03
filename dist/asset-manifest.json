@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/partygames.dev/static/css/main.f7a336ef.css",
+    "main.js": "/partygames.dev/static/js/main.f5b94872.js",
+    "static/js/787.864394a3.chunk.js": "/partygames.dev/static/js/787.864394a3.chunk.js",
+    "static/media/background_1.png": "/partygames.dev/static/media/background_1.bbc1236d608d7dbf410f.png",
+    "static/media/background_3.png": "/partygames.dev/static/media/background_3.b2092d03314ee479bcb6.png",
+    "static/media/background_4.png": "/partygames.dev/static/media/background_4.7ed1170cae1208d2f0e2.png",
+    "static/media/background_2.png": "/partygames.dev/static/media/background_2.a93c27fa46cace77d55f.png",
+    "static/media/mostLikely.svg": "/partygames.dev/static/media/mostLikely.3e1f14d77779ed294395cdd42544a72f.svg",
+    "static/media/wouldYouRather.svg": "/partygames.dev/static/media/wouldYouRather.45699013a5ef72f662eb4264f7622f7f.svg",
+    "static/media/truthOrDare.svg": "/partygames.dev/static/media/truthOrDare.4035526a0900fb189b23821a47a6cc12.svg",
+    "static/media/Lato-Semibold.woff": "/partygames.dev/static/media/Lato-Semibold.5c35c76aceac2a741d12.woff",
+    "static/media/Lato-Black.ttf": "/partygames.dev/static/media/Lato-Black.57dee8aface5572f9101.ttf",
+    "static/media/BebasNeue-Regular.ttf": "/partygames.dev/static/media/BebasNeue-Regular.9aa03f9d52866893add5.ttf",
+    "static/media/Gilroy-Semibold.woff": "/partygames.dev/static/media/Gilroy-Semibold.5b042906a8b58ec4633e.woff",
+    "static/media/neverEver.svg": "/partygames.dev/static/media/neverEver.ec8f299caf33bcad5d04370c8cf0fb9d.svg",
+    "static/media/mainLogo.svg": "/partygames.dev/static/media/mainLogo.b81094fda090adb9a303055f52c88eb8.svg",
+    "static/media/app-store.svg": "/partygames.dev/static/media/app-store.648fab6adb7d1d0b5339468a6a0310ea.svg",
+    "static/media/google-play.svg": "/partygames.dev/static/media/google-play.3ca4c5158ab568bb31974be84c01ea12.svg",
+    "index.html": "/partygames.dev/index.html",
+    "main.f7a336ef.css.map": "/partygames.dev/static/css/main.f7a336ef.css.map",
+    "main.f5b94872.js.map": "/partygames.dev/static/js/main.f5b94872.js.map",
+    "787.864394a3.chunk.js.map": "/partygames.dev/static/js/787.864394a3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7a336ef.css",
+    "static/js/main.f5b94872.js"
+  ]
+}

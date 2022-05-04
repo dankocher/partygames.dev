@@ -21,8 +21,10 @@ const LinkButtons: React.FC<LinkButtonsProps> = ({ googlePlay, appStore }) => {
     },
   ];
 
-  const downloadText = "Download on the";
-  const comingSoonText = "Soon";
+  const constText = {
+    downloadText: "Download on the",
+    comingSoonText: "Soon",
+  };
 
   return (
     <div className={styles.storeLink}>
@@ -40,11 +42,11 @@ const LinkButtons: React.FC<LinkButtonsProps> = ({ googlePlay, appStore }) => {
           <div className={styles.text}>
             {href ? (
               <>
-                <p className="downFont">{downloadText}</p>
+                <p className="downFont">{constText.downloadText}</p>
                 <p className="smallFont">{title}</p>
               </>
             ) : (
-              <p className={`smallFont`}>{comingSoonText}</p>
+              <p className={`smallFont`}>{constText.comingSoonText}</p>
             )}
           </div>
         </a>

@@ -18,13 +18,17 @@
 
     display: flex;
     align-items: center;
-    border-radius: $borderRadius;
+    border-radius: autoResize(
+      $borderRadius,
+      $bigBorderRadius,
+      $phoneWidth
+    ) !important;
     text-decoration: none;
     background-color: $white;
     color: $textColor;
 
     &:not(:last-child) {
-      margin-right: 28px;
+      margin-right: autoResize(16px, 32px, $phoneWidth) !important;
     }
   }
 

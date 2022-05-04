@@ -1,5 +1,7 @@
 @import "./styles/foundations.scss";
 
+$fullPageHeignt: 200vh;
+
 .logo {
   position: absolute;
   top: 68px;
@@ -17,8 +19,8 @@
 
 .background {
   position: absolute;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 
 .content {
@@ -35,6 +37,12 @@
 }
 
 .bgContainer {
+  max-height: calc($fullPageHeignt + $footerHeightLg);
+
+  @media (max-width: $footerPoint) {
+    max-height: calc($fullPageHeignt + $footerHeightMob);
+  }
+
   position: relative;
 
   top: 0;

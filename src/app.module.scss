@@ -1,6 +1,8 @@
 @import "./styles/foundations.scss";
 
-$fullPageHeignt: 200vh;
+$pageCounter: 2;
+$fullPageHeignt: calc(100vh * $pageCounter);
+$fullPageHeigntLandscape: calc(autoResize(450px, 700px, $phoneWidth) * 2);
 
 .logo {
   position: absolute;
@@ -42,6 +44,10 @@ $fullPageHeignt: 200vh;
 
   @media (max-width: $footerPoint) {
     max-height: calc($fullPageHeignt + $footerHeightMob);
+  }
+
+  @media (orientation: landscape) and (max-height: $footerPoint) {
+    max-height: calc($fullPageHeigntLandscape + $footerHeightMob);
   }
 
   position: relative;

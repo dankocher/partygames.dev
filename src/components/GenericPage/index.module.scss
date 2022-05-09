@@ -8,6 +8,10 @@
   place-items: center;
   padding-left: 16px;
   padding-right: 16px;
+
+  @media (orientation: landscape) {
+    min-height: autoResize(450px, 700px, $phoneWidth) !important;
+  }
 }
 
 .content {

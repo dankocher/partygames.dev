@@ -1,7 +1,6 @@
 import styles from "./app.module.scss";
 
-import { useRef } from "react";
-import { useOnLoadImages } from "./hooks/useOnLoadImages";
+import { useState } from "react";
 
 import Footer from "./components/Footer";
 import GenericPage from "./components/GenericPage";
@@ -14,18 +13,19 @@ import { data } from "./data/data";
 
 function App() {
   const altMainLogo = "PARTY GAMES Logo";
+  const [isPageLoaded, setIsPageLoaded] = useState(false);
 
-  const wrapperRef = useRef<HTMLDivElement>(null);
-  const imagesLoaded = useOnLoadImages(wrapperRef);
+  window.addEventListener("load", (event) => {
+    setIsPageLoaded(true);
+  });
 
   return (
     <>
-      {!imagesLoaded && <Loader isLoading={!imagesLoaded} />}
+      {!isPageLoaded && <Loader isLoading={!isPageLoaded} />}
 
       <div
-        ref={wrapperRef}
         className={styles.bgContainer}
-        style={{ display: imagesLoaded ? "block" : "none" }}
+        style={{ display: isPageLoaded ? "block" : "none" }}
       >
         {(data as GenericPageProps[]).map((item, index) => (
           <div key={`background-${index}`} className={styles.content}>
@@ -36,7 +36,7 @@ function App() {
       </div>
 
       <div
-        style={{ display: imagesLoaded ? "block" : "none" }}
+        style={{ display: isPageLoaded ? "block" : "none" }}
         className={styles.contentContainer}
       >
         {(data as GenericPageProps[]).map((item, index) => (
@@ -44,7 +44,7 @@ function App() {
         ))}
       </div>
       <img
-        style={{ display: imagesLoaded ? "block" : "none" }}
+        style={{ display: isPageLoaded ? "block" : "none" }}
         src={mainLogo}
         alt={altMainLogo}
         className={styles.logo}

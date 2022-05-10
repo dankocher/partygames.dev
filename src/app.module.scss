@@ -1,8 +1,8 @@
 @import "./styles/foundations.scss";
 
 $pageCounter: 2;
-$fullPageHeignt: calc(100vh * $pageCounter);
-$fullPageHeigntLandscape: calc(autoResize(450px, 700px, $phoneWidth) * 2);
+$fullPageHeignt: #{100vh * 2};
+$fullPageHeigntLandscape: autoResize(900px, 1400px, $phoneWidth);
 
 .logo {
   position: absolute;
@@ -40,6 +40,7 @@ $fullPageHeigntLandscape: calc(autoResize(450px, 700px, $phoneWidth) * 2);
 }
 
 .bgContainer {
+  overflow: hidden;
   max-height: calc($fullPageHeignt + $footerHeightLg);
 
   @media (max-width: $footerPoint) {

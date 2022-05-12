@@ -1,7 +1,11 @@
-import neverEver from "../assets/svg/neverEver.svg";
-import mostLikely from "../assets/svg/mostLikely.svg";
-import truthOrDare from "../assets/svg/truthOrDare.svg";
-import wouldYouRather from "../assets/svg/wouldYouRather.svg";
+import neverEver from "../assets/images/neverEver.png";
+import neverEver2 from "../assets/images/neverEver@2x.png";
+import neverEver3 from "../assets/images/neverEver@3x.png";
+import mostLikely from "../assets/images/mostLikely.png";
+import mostLikely2 from "../assets/images/mostLikely@2x.png";
+import mostLikely3 from "../assets/images/mostLikely@3x.png";
+import truthOrDare from "../assets/images/truthOrDare.png";
+import wouldYouRather from "../assets/images/wouldYouRather.png";
 
 import img_1 from "../assets/images/background_1.png";
 import img_2 from "../assets/images/background_2.png";
@@ -10,7 +14,7 @@ import img_4 from "../assets/images/background_4.png";
 
 export const data = [
   {
-    logo: neverEver,
+    logo: { x1: neverEver, x2: neverEver2, x3: neverEver3 },
     title: "never have i ever",
     description: {
       text: [
@@ -29,7 +33,7 @@ export const data = [
     background: img_1,
   },
   {
-    logo: mostLikely,
+    logo: { x1: mostLikely, x2: mostLikely2, x3: mostLikely3 },
     title: "Most likely to",
     description: {
       text: [

@@ -1,6 +1,6 @@
 import styles from "./app.module.scss";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import Footer from "./components/Footer";
 import GenericPage from "./components/GenericPage";
@@ -15,9 +15,16 @@ function App() {
   const altMainLogo = "PARTY GAMES Logo";
   const [isPageLoaded, setIsPageLoaded] = useState(false);
 
-  window.addEventListener("load", (event) => {
-    setIsPageLoaded(true);
-  });
+  const setIsPageLoadedHandler = () => setIsPageLoaded(true);
+
+  useEffect(() => {
+    if (document.readyState === "complete") {
+      setIsPageLoadedHandler();
+    } else {
+      window.addEventListener("load", setIsPageLoadedHandler);
+      return () => document.removeEventListener("load", setIsPageLoadedHandler);
+    }
+  }, []);
 
   return (
     <>
@@ -29,7 +36,11 @@ function App() {
       >
         {(data as GenericPageProps[]).map((item, index) => (
           <div key={`background-${index}`} className={styles.content}>
-            <img src={item.background} className={styles.background} />
+            <img
+              src={item.background}
+              className={styles.background}
+              alt={`background-${index}`}
+            />
           </div>
         ))}
         <Footer />

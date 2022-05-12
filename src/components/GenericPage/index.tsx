@@ -4,6 +4,7 @@ import React from "react";
 
 import LinkButtons from "../LinkButtons";
 import TextList from "../TextList";
+import Image from "../Image";
 
 import { GenericPageProps } from "./genericPage.interface";
 
@@ -16,9 +17,10 @@ const GenericPage: React.FC<GenericPageProps> = ({
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <img
+        <Image
           className={styles.content__logo}
-          src={logo}
+          src={logo.x1}
+          images={logo}
           alt={`${title} logo`}
         />
 

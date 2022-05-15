@@ -11,6 +11,8 @@ import { GenericPageProps } from "./components/GenericPage/genericPage.interface
 import mainLogo from "./assets/svg/mainLogo.svg";
 import { data } from "./data/data";
 
+const MIN_LOADING_DELAY = 1000;
+
 function App() {
   const altMainLogo = "PARTY GAMES Logo";
   const [isPageLoaded, setIsPageLoaded] = useState(false);
@@ -18,12 +20,15 @@ function App() {
   const setIsPageLoadedHandler = () => setIsPageLoaded(true);
 
   useEffect(() => {
-    if (document.readyState === "complete") {
-      setIsPageLoadedHandler();
-    } else {
-      window.addEventListener("load", setIsPageLoadedHandler);
-      return () => document.removeEventListener("load", setIsPageLoadedHandler);
-    }
+    setTimeout(() => {
+      if (document.readyState === "complete") {
+        setIsPageLoadedHandler();
+      } else {
+        window.addEventListener("load", setIsPageLoadedHandler);
+        return () =>
+          document.removeEventListener("load", setIsPageLoadedHandler);
+      }
+    }, MIN_LOADING_DELAY);
   }, []);
 
   return (

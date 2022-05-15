@@ -1,7 +1,7 @@
-import React from "react";
+import { FC } from "react";
 import { TextListProps } from "./textList.interface";
 
-const TextList: React.FC<TextListProps> = ({ text, isBoldFirst = true }) => {
+const TextList: FC<TextListProps> = ({ text, isBoldFirst = true }) => {
   const isEvenRemainder = isBoldFirst ? 0 : 1;
   return (
     <>

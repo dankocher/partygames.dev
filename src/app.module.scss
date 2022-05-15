@@ -1,8 +1,8 @@
 @import "./styles/foundations.scss";
 
 $pageCounter: 2;
-$fullPageHeignt: #{100vh * 2};
-$fullPageHeigntLandscape: autoResize(900px, 1400px, $phoneWidth);
+$fullPageHeignt: #{100vh * 2}; //pageCounter
+$fullPageHeigntLandscape: autoResize(900px, 1400px, $phoneWidth); //pageCounter
 
 .logo {
   position: absolute;

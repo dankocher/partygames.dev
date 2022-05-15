@@ -1,5 +1,4 @@
 import styles from "./styles.module.scss";
-import React from "react";
 
 import { mail, company } from "./constants";
 

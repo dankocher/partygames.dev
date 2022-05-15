@@ -1,13 +1,13 @@
 import styles from "./index.module.scss";
 
-import React from "react";
+import { FC } from "react";
 
 import appStoreIcon from "./svg/app-store.svg";
 import googlePlayIcon from "./svg/google-play.svg";
 
 import { LinkButtonsProps } from "./linkButtons.interface";
 
-const LinkButtons: React.FC<LinkButtonsProps> = ({ googlePlay, appStore }) => {
+const LinkButtons: FC<LinkButtonsProps> = ({ googlePlay, appStore }) => {
   const linkStore = [
     {
       title: "Google Play",

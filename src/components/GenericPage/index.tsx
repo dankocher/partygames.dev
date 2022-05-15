@@ -1,6 +1,6 @@
 import styles from "./index.module.scss";
 
-import React from "react";
+import { FC } from "react";
 
 import LinkButtons from "../LinkButtons";
 import TextList from "../TextList";
@@ -8,7 +8,7 @@ import Image from "../Image";
 
 import { GenericPageProps } from "./genericPage.interface";
 
-const GenericPage: React.FC<GenericPageProps> = ({
+const GenericPage: FC<GenericPageProps> = ({
   logo,
   title,
   description,

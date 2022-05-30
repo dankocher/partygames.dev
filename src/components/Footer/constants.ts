@@ -1,2 +1,2 @@
-export const mail: string = "info@party-games.me";
+export const mail: string = "partygames@partygames.dev";
 export const company: string = "Party-games";

@@ -27,8 +27,8 @@ export const data = [
       isBoldFirst: true,
     },
     link: {
-      googlePlay: "https://www.youtube.com/watch?v=6n3pFFPSlW4",
-      appStore: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      googlePlay: "",
+      appStore: "",
     },
     background: img_1,
   },
@@ -50,8 +50,8 @@ export const data = [
       isBoldFirst: true,
     },
     link: {
-      googlePlay: "https://www.youtube.com/watch?v=j5-yKhDd64s",
-      appStore: "https://www.youtube.com/watch?v=WlPTmXi0pVk",
+      googlePlay: "",
+      appStore: "",
     },
     background: img_2,
   },

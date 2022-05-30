@@ -14,7 +14,6 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.info}>
         <div className={`${styles.info__links} footerMainFont`}>
-          <a>{constText.termOfUse}</a>
           <a>{constText.privacyPolicy}</a>
           <a href={`mailto:${mail}`}>{mail}</a>
         </div>

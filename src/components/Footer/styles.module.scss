@@ -31,7 +31,13 @@
     padding-top: 44px;
   }
 
+  p {
+    cursor: default;
+  }
+
   &__links {
+    cursor: pointer;
+
     @media (max-width: $footerPoint) {
       display: flex;
       flex-direction: column;
@@ -45,7 +51,12 @@
       }
     }
 
-    a {
+    div {
+      display: inline-block;
+    }
+
+    a,
+    div {
       color: inherit;
     }
   }

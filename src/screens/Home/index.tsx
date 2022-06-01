@@ -1,15 +1,15 @@
-import styles from "./home.module.scss";
+import styles from "./index.module.scss";
 
 import { useEffect, useState } from "react";
 
-import Footer from "../components/Footer";
-import GenericPage from "../components/GenericPage";
-import Loader from "../components/Loader";
+import Footer from "../../components/Footer";
+import GenericPage from "../../components/GenericPage";
+import Loader from "../../components/Loader";
 
-import { GenericPageProps } from "../components/GenericPage/genericPage.interface";
+import { GenericPageProps } from "../../components/GenericPage/genericPage.interface";
 
-import mainLogo from "../assets/svg/mainLogo.svg";
-import { data } from "../data/data";
+import mainLogo from "../../assets/svg/mainLogo.svg";
+import { data } from "../../data/data";
 
 const MIN_LOADING_DELAY = 1250;
 

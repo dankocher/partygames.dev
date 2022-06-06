@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/partygames.dev/static/css/main.43a51d50.css",
-    "main.js": "/partygames.dev/static/js/main.439fa56d.js",
+    "main.js": "/partygames.dev/static/js/main.5eb9399c.js",
     "static/js/787.864394a3.chunk.js": "/partygames.dev/static/js/787.864394a3.chunk.js",
     "static/media/background_1.png": "/partygames.dev/static/media/background_1.bbc1236d608d7dbf410f.png",
     "static/media/background_3.png": "/partygames.dev/static/media/background_3.b2092d03314ee479bcb6.png",
@@ -20,11 +20,11 @@
     "static/media/app-store.svg": "/partygames.dev/static/media/app-store.648fab6adb7d1d0b5339468a6a0310ea.svg",
     "static/media/google-play.svg": "/partygames.dev/static/media/google-play.3ca4c5158ab568bb31974be84c01ea12.svg",
     "main.43a51d50.css.map": "/partygames.dev/static/css/main.43a51d50.css.map",
-    "main.439fa56d.js.map": "/partygames.dev/static/js/main.439fa56d.js.map",
+    "main.5eb9399c.js.map": "/partygames.dev/static/js/main.5eb9399c.js.map",
     "787.864394a3.chunk.js.map": "/partygames.dev/static/js/787.864394a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43a51d50.css",
-    "static/js/main.439fa56d.js"
+    "static/js/main.5eb9399c.js"
   ]
 }

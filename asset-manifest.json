@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.43a51d50.css",
-    "main.js": "/static/js/main.21da0891.js",
-    "static/js/787.864394a3.chunk.js": "/static/js/787.864394a3.chunk.js",
-    "static/media/background_1.png": "/static/media/background_1.bbc1236d608d7dbf410f.png",
-    "static/media/background_3.png": "/static/media/background_3.b2092d03314ee479bcb6.png",
-    "static/media/background_4.png": "/static/media/background_4.7ed1170cae1208d2f0e2.png",
-    "static/media/background_2.png": "/static/media/background_2.a93c27fa46cace77d55f.png",
-    "static/media/neverEver@3x.png": "/static/media/neverEver@3x.60807d4819002839ef67.png",
-    "static/media/mostLikely@3x.png": "/static/media/mostLikely@3x.1ede5feb084349136736.png",
-    "static/media/neverEver@2x.png": "/static/media/neverEver@2x.a7f4b865a8f97905a157.png",
-    "static/media/mostLikely@2x.png": "/static/media/mostLikely@2x.68d9597c7582bce9f497.png",
-    "static/media/mostLikely.png": "/static/media/mostLikely.bbc7d08bec93bdd6b7c9.png",
-    "static/media/neverEver.png": "/static/media/neverEver.58af79780a2b43dbbaf3.png",
-    "static/media/wouldYouRather.png": "/static/media/wouldYouRather.a0758db4870ce5c112b4.png",
-    "static/media/truthOrDare.png": "/static/media/truthOrDare.6acbf2a6f060311a4b58.png",
-    "static/media/mainLogo.svg": "/static/media/mainLogo.b81094fda090adb9a303055f52c88eb8.svg",
-    "index.html": "/index.html",
-    "static/media/app-store.svg": "/static/media/app-store.648fab6adb7d1d0b5339468a6a0310ea.svg",
-    "static/media/google-play.svg": "/static/media/google-play.3ca4c5158ab568bb31974be84c01ea12.svg",
-    "main.43a51d50.css.map": "/static/css/main.43a51d50.css.map",
-    "main.21da0891.js.map": "/static/js/main.21da0891.js.map",
-    "787.864394a3.chunk.js.map": "/static/js/787.864394a3.chunk.js.map"
+    "main.css": "/partygames.dev/static/css/main.43a51d50.css",
+    "main.js": "/partygames.dev/static/js/main.439fa56d.js",
+    "static/js/787.864394a3.chunk.js": "/partygames.dev/static/js/787.864394a3.chunk.js",
+    "static/media/background_1.png": "/partygames.dev/static/media/background_1.bbc1236d608d7dbf410f.png",
+    "static/media/background_3.png": "/partygames.dev/static/media/background_3.b2092d03314ee479bcb6.png",
+    "static/media/background_4.png": "/partygames.dev/static/media/background_4.7ed1170cae1208d2f0e2.png",
+    "static/media/background_2.png": "/partygames.dev/static/media/background_2.a93c27fa46cace77d55f.png",
+    "static/media/neverEver@3x.png": "/partygames.dev/static/media/neverEver@3x.60807d4819002839ef67.png",
+    "static/media/mostLikely@3x.png": "/partygames.dev/static/media/mostLikely@3x.1ede5feb084349136736.png",
+    "static/media/neverEver@2x.png": "/partygames.dev/static/media/neverEver@2x.a7f4b865a8f97905a157.png",
+    "static/media/mostLikely@2x.png": "/partygames.dev/static/media/mostLikely@2x.68d9597c7582bce9f497.png",
+    "static/media/mostLikely.png": "/partygames.dev/static/media/mostLikely.bbc7d08bec93bdd6b7c9.png",
+    "static/media/neverEver.png": "/partygames.dev/static/media/neverEver.58af79780a2b43dbbaf3.png",
+    "static/media/wouldYouRather.png": "/partygames.dev/static/media/wouldYouRather.a0758db4870ce5c112b4.png",
+    "static/media/truthOrDare.png": "/partygames.dev/static/media/truthOrDare.6acbf2a6f060311a4b58.png",
+    "static/media/mainLogo.svg": "/partygames.dev/static/media/mainLogo.b81094fda090adb9a303055f52c88eb8.svg",
+    "index.html": "/partygames.dev/index.html",
+    "static/media/app-store.svg": "/partygames.dev/static/media/app-store.648fab6adb7d1d0b5339468a6a0310ea.svg",
+    "static/media/google-play.svg": "/partygames.dev/static/media/google-play.3ca4c5158ab568bb31974be84c01ea12.svg",
+    "main.43a51d50.css.map": "/partygames.dev/static/css/main.43a51d50.css.map",
+    "main.439fa56d.js.map": "/partygames.dev/static/js/main.439fa56d.js.map",
+    "787.864394a3.chunk.js.map": "/partygames.dev/static/js/787.864394a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43a51d50.css",
-    "static/js/main.21da0891.js"
+    "static/js/main.439fa56d.js"
   ]
 }

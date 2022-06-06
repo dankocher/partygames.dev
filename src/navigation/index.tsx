@@ -6,6 +6,7 @@ import Privacy from "../screens/Privacy";
 import { SCREENS } from "./constants";
 
 const Navigation = () => {
+  console.log("version with basename");
   return (
     <Routes>
       <Route path={SCREENS.HOME} element={<Home />} />

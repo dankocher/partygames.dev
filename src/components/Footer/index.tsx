@@ -21,8 +21,10 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.info}>
-        <div className={`${styles.info__links} footerMainFont`}>
-          <div role="button" onClick={navigateTo}>
+        <div
+          className={`${styles.info__links} ${styles.noSelect} footerMainFont`}
+        >
+          <div className={styles.noSelect} role="button" onClick={navigateTo}>
             {constText.privacyPolicy}
           </div>
           <a href={`mailto:${mail}`}>{mail}</a>

@@ -11,7 +11,7 @@ const Navigation = () => {
       <Route path={SCREENS.HOME} element={<Home />} />
       <Route path={SCREENS.PRIVACY} element={<Privacy />} />
 
-      <Route path="*" element={<Navigate to={SCREENS.HOME} replace />} />
+      {/* <Route path="*" element={<Navigate to={SCREENS.HOME} replace />} /> */}
     </Routes>
   );
 };

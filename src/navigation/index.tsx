@@ -6,7 +6,7 @@ import Privacy from "../screens/Privacy";
 import { SCREENS } from "./constants";
 
 const Navigation = () => {
-  console.log("version with deploy version");
+  console.log("version with deploy version 3.1");
   return (
     <Routes>
       <Route path={SCREENS.HOME} element={<Home />} />

@@ -1,8 +1,8 @@
 {
   "name": "partygames.dev",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "private": true,
-  "homepage": "https://dankocher.github.io/partygames.dev/",
+  "homepage": "partygames.dev",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",

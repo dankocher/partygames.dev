@@ -6,13 +6,13 @@ import Privacy from "../screens/Privacy";
 import { SCREENS } from "./constants";
 
 const Navigation = () => {
-  console.log("version with deleted replace");
+  console.log("version with deploy version");
   return (
     <Routes>
       <Route path={SCREENS.HOME} element={<Home />} />
       <Route path={SCREENS.PRIVACY} element={<Privacy />} />
 
-      {/* <Route path="*" element={<Navigate to={SCREENS.HOME} replace />} /> */}
+      <Route path="*" element={<Navigate to={SCREENS.HOME} replace />} />
     </Routes>
   );
 };

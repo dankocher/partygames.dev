@@ -5,15 +5,19 @@ import Privacy from "../screens/Privacy";
 
 import { SCREENS } from "./constants";
 
+import ScrollToTop from "./ScrollToTop";
+
 const Navigation = () => {
   console.log("version with deploy version 3.2");
   return (
-    <Routes>
-      <Route path={SCREENS.HOME} element={<Home />} />
-      <Route path={SCREENS.PRIVACY} element={<Privacy />} />
+    <ScrollToTop>
+      <Routes>
+        <Route path={SCREENS.HOME} element={<Home />} />
+        <Route path={SCREENS.PRIVACY} element={<Privacy />} />
 
-      <Route path="*" element={<Navigate to={SCREENS.HOME} replace />} />
-    </Routes>
+        <Route path="*" element={<Navigate to={SCREENS.HOME} replace />} />
+      </Routes>
+    </ScrollToTop>
   );
 };
 

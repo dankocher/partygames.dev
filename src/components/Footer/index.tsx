@@ -2,6 +2,7 @@ import styles from "./styles.module.scss";
 
 import { mail, company } from "./constants";
 import { SCREENS } from "../../navigation/constants";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const year: number = new Date().getFullYear();
@@ -17,8 +18,7 @@ const Footer = () => {
         <div
           className={`${styles.info__links} ${styles.noSelect} footerMainFont`}
         >
-          <a href={SCREENS.PRIVACY}>{constText.privacyPolicy}</a>
-
+          <Link to={SCREENS.PRIVACY}>{constText.privacyPolicy}</Link>
           <a href={`mailto:${mail}`}>{mail}</a>
         </div>
         <p className={"footerSubtitleFont"}>

@@ -59,7 +59,7 @@ function Home() {
         ))}
       </div>
 
-      <Footer />
+      {isPageLoaded && <Footer />}
 
       <img
         style={{ display: isPageLoaded ? "block" : "none" }}

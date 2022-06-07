@@ -10,6 +10,8 @@
   padding-left: 18px;
   padding-right: 18px;
 
+  color: $white;
+
   @media (max-width: $footerPoint) {
     height: $footerHeightMob;
   }
@@ -23,7 +25,6 @@
   padding-top: 56px;
   padding-bottom: 28px;
   text-align: center;
-  color: $textColor;
 
   @media (max-width: $footerPoint) {
     padding-top: 44px;

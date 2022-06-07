@@ -9,6 +9,7 @@
 
     footer {
       position: static;
+      color: $textColor;
     }
 
     p {
@@ -20,6 +21,10 @@
     padding-left: autoResize(10px, 96px, $phoneWidth) !important;
     padding-top: autoResize(10px, 96px, $phoneWidth) !important;
     padding-right: autoResize(10px, 96px, $phoneWidth) !important;
+
+    * {
+      color: $privacyTextColor !important;
+    }
   }
 
   ol {

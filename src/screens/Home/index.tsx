@@ -37,7 +37,7 @@ function Home() {
 
       <div
         className={styles.bgContainer}
-        style={{ display: isPageLoaded ? "block" : "none" }}
+        style={{ display: isPageLoaded ? "flex" : "none" }}
       >
         {(data as GenericPageProps[]).map((item, index) => (
           <div key={`background-${index}`} className={styles.content}>
@@ -48,7 +48,6 @@ function Home() {
             />
           </div>
         ))}
-        <Footer />
       </div>
 
       <div
@@ -59,6 +58,9 @@ function Home() {
           <GenericPage key={`content-${index}`} {...item} />
         ))}
       </div>
+
+      <Footer />
+
       <img
         style={{ display: isPageLoaded ? "block" : "none" }}
         src={mainLogo}

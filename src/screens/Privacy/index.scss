@@ -1,3 +1,5 @@
+@import "../../styles/foundations.scss";
+
 .lst-kix_flsz2ds4j91f-5 > li:before {
   content: "\0025a0  ";
 }
@@ -461,10 +463,8 @@ ul.lst-kix_rs8ohnd8upvr-1 {
 }
 .c2 {
   background-color: #ffffff;
-  margin-left: 59pt;
-  // padding-top: 22pt;
+  margin-left: autoResize(30px, 70px, $phoneWidth) !important;
   padding-left: 0pt;
-  padding-bottom: 22pt;
   line-height: 2;
   orphans: 2;
   widows: 2;

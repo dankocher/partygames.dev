@@ -3,9 +3,7 @@
 .footer {
   height: $footerHeightLg;
   width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;

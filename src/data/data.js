@@ -7,10 +7,10 @@ import mostLikely3 from "../assets/images/mostLikely@3x.png";
 import truthOrDare from "../assets/images/truthOrDare.png";
 import wouldYouRather from "../assets/images/wouldYouRather.png";
 
-import img_1 from "../assets/images/background_1.png";
-import img_2 from "../assets/images/background_2.png";
-import img_3 from "../assets/images/background_3.png";
-import img_4 from "../assets/images/background_4.png";
+import img_1 from "../assets/images/background_1.webp";
+import img_2 from "../assets/images/background_2.webp";
+import img_3 from "../assets/images/background_3.webp";
+import img_4 from "../assets/images/background_4.webp";
 
 export const data = [
   {

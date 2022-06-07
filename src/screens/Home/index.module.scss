@@ -1,9 +1,5 @@
 @import "../../styles/foundations.scss";
 
-$pageCounter: 2;
-$fullPageHeignt: #{100vh * 2}; //pageCounter
-$fullPageHeigntLandscape: autoResize(900px, 1400px, $phoneWidth); //pageCounter
-
 .logo {
   position: absolute;
   top: 68px;
@@ -28,10 +24,10 @@ $fullPageHeigntLandscape: autoResize(900px, 1400px, $phoneWidth); //pageCounter
 
 .content {
   display: flex;
+  flex: 1;
+
   position: relative;
 
-  height: 100vh;
-  max-height: 100vh;
   min-height: 1080px;
   min-width: 1920px;
 
@@ -40,18 +36,10 @@ $fullPageHeigntLandscape: autoResize(900px, 1400px, $phoneWidth); //pageCounter
 }
 
 .bgContainer {
-  overflow: hidden;
-  max-height: calc($fullPageHeignt + $footerHeightLg);
+  display: flex;
+  flex-direction: column;
 
-  @media (max-width: $footerPoint) {
-    max-height: calc($fullPageHeignt + $footerHeightMob);
-  }
-
-  @media (orientation: landscape) and (max-height: $footerPoint) {
-    max-height: calc($fullPageHeigntLandscape + $footerHeightMob);
-  }
-
-  position: relative;
+  position: absolute;
 
   top: 0;
   bottom: 0;
@@ -62,7 +50,7 @@ $fullPageHeigntLandscape: autoResize(900px, 1400px, $phoneWidth); //pageCounter
 }
 
 .contentContainer {
-  position: absolute;
+  position: relative;
   top: 0;
   bottom: 0;
   left: 0;

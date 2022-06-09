@@ -2,10 +2,21 @@ import "./index.scss";
 import styles from "./index.module.scss";
 
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
+
+import { SCREENS } from "../../navigation/constants";
+import mainLogo from "../../assets/svg/mainLogoDark.svg";
 
 const Privacy = () => {
+  const altMainLogo = "PARTY GAMES Logo";
   return (
     <div className={styles.container}>
+      <div className={styles.header}>
+        <Link to={SCREENS.HOME}>
+          <img src={mainLogo} alt={altMainLogo} className={styles.logo} />
+        </Link>
+      </div>
+
       <section>
         <h1 className="c6" id="h.bahyrj17t45w">
           <span className="c3">Privacy Policy</span>

@@ -1,7 +1,38 @@
 @import "../../styles/foundations.scss";
 
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: $white;
+
+  .header {
+    position: absolute;
+
+    max-width: 800px;
+
+    width: 100%;
+
+    top: 68px;
+    left: 72px;
+
+    top: autoResize(16px, 68px, $phoneWidth) !important;
+    left: autoResize(16px, 72px, $phoneWidth) !important;
+
+    margin-bottom: 1px;
+
+    @media (max-width: 1100px) {
+      position: relative;
+    }
+
+    .logo {
+      height: 60px;
+      width: 194px;
+
+      height: autoResize(46px, 60px, $phoneWidth) !important;
+      width: autoResize(134px, 194px, $phoneWidth) !important;
+    }
+  }
 
   .footer {
     position: relative;
@@ -18,12 +49,19 @@
   }
 
   section {
+    max-width: 800px;
+    padding-top: 88px;
     padding-left: autoResize(10px, 96px, $phoneWidth) !important;
-    padding-top: autoResize(10px, 96px, $phoneWidth) !important;
+    // padding-top: autoResize(10px, 96px, $phoneWidth) !important;
     padding-right: autoResize(10px, 96px, $phoneWidth) !important;
 
     * {
       color: $privacyTextColor !important;
+    }
+
+    @media (max-width: 1100px) {
+      padding-top: 0;
+      margin-top: 30px;
     }
   }
 
@@ -48,7 +86,7 @@
     font-family: "Arial";
   }
   h1 {
-    padding-top: 20pt;
+    padding-top: autoResize(10px, 26px, $phoneWidth) !important;;
     color: #000000;
     font-size: 20pt;
     padding-bottom: 6pt;

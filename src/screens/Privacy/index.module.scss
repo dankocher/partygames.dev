@@ -1,161 +1,46 @@
 @import "../../styles/foundations.scss";
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: $white;
+.header {
+  position: absolute;
 
-  .header {
-    position: absolute;
+  max-width: 800px;
 
-    max-width: 800px;
+  width: 100%;
 
-    width: 100%;
+  padding-top: 68px;
+  padding-left: 72px;
 
-    top: 68px;
-    left: 72px;
+  padding-top: autoResize(16px, 68px, $phoneWidth) !important;
+  padding-left: autoResize(16px, 72px, $phoneWidth) !important;
 
-    top: autoResize(16px, 68px, $phoneWidth) !important;
-    left: autoResize(16px, 72px, $phoneWidth) !important;
-
-    margin-bottom: 1px;
-
-    @media (max-width: 1100px) {
-      position: relative;
-    }
-
-    .logo {
-      height: 60px;
-      width: 194px;
-
-      height: autoResize(46px, 60px, $phoneWidth) !important;
-      width: autoResize(134px, 194px, $phoneWidth) !important;
-    }
+  @media (max-width: 1230px) {
+    position: static;
   }
 
-  .footer {
-    position: relative;
-    width: 100%;
+  .logo {
+    height: 60px;
+    width: 194px;
 
-    footer {
-      position: static;
-      color: $textColor;
-    }
+    height: autoResize(46px, 60px, $phoneWidth) !important;
+    width: autoResize(134px, 194px, $phoneWidth) !important;
+  }
+}
 
-    p {
-      color: #8e98a2;
-    }
+.footer {
+  position: relative;
+  width: 100%;
+
+  footer {
+    position: static;
+    color: $textColor;
   }
 
-  section {
-    max-width: 800px;
-    padding-top: 88px;
-    padding-left: autoResize(10px, 96px, $phoneWidth) !important;
-    // padding-top: autoResize(10px, 96px, $phoneWidth) !important;
-    padding-right: autoResize(10px, 96px, $phoneWidth) !important;
-
-    * {
-      color: $privacyTextColor !important;
-    }
-
-    @media (max-width: 1100px) {
-      padding-top: 0;
-      margin-top: 30px;
-    }
-  }
-
-  ol {
-    margin: 0;
-    padding: 0;
-  }
-  table td,
-  table th {
-    padding: 0;
-  }
-
-  li {
-    color: #000000;
-    font-size: 11pt;
-    font-family: "Arial";
-  }
   p {
-    margin: 0;
-    color: #000000;
-    font-size: 11pt;
-    font-family: "Arial";
+    color: #8e98a2;
   }
-  h1 {
-    padding-top: autoResize(10px, 26px, $phoneWidth) !important;;
-    color: #000000;
-    font-size: 20pt;
-    padding-bottom: 6pt;
-    font-family: "Arial";
-    line-height: 1.15;
-    page-break-after: avoid;
-    orphans: 2;
-    widows: 2;
-    text-align: left;
-  }
-  h2 {
-    padding-top: 18pt;
-    color: #000000;
-    font-size: 16pt;
-    padding-bottom: 6pt;
-    font-family: "Arial";
-    line-height: 1.15;
-    page-break-after: avoid;
-    orphans: 2;
-    widows: 2;
-    text-align: left;
-  }
-  h3 {
-    padding-top: 16pt;
-    color: #434343;
-    font-size: 14pt;
-    padding-bottom: 4pt;
-    font-family: "Arial";
-    line-height: 1.15;
-    page-break-after: avoid;
-    orphans: 2;
-    widows: 2;
-    text-align: left;
-  }
-  h4 {
-    padding-top: 14pt;
-    color: #666666;
-    font-size: 12pt;
-    padding-bottom: 4pt;
-    font-family: "Arial";
-    line-height: 1.15;
-    page-break-after: avoid;
-    orphans: 2;
-    widows: 2;
-    text-align: left;
-  }
-  h5 {
-    padding-top: 12pt;
-    color: #666666;
-    font-size: 11pt;
-    padding-bottom: 4pt;
-    font-family: "Arial";
-    line-height: 1.15;
-    page-break-after: avoid;
-    orphans: 2;
-    widows: 2;
-    text-align: left;
-  }
-  h6 {
-    padding-top: 12pt;
-    color: #666666;
-    font-size: 11pt;
-    padding-bottom: 4pt;
-    font-family: "Arial";
-    line-height: 1.15;
-    page-break-after: avoid;
-    font-style: italic;
-    orphans: 2;
-    widows: 2;
-    text-align: left;
-  }
+}
+
+.container {
+  position: relative;
+  background-color: $white;
 }

@@ -13,6 +13,8 @@ const Privacy = () => {
   const { description, dateUpdate } = info.main.privacy;
 
   const altMainLogo = "PARTY GAMES Logo";
+  const privacyPolicy = "Privacy policy";
+
   return (
     <div className={styles.container}>
       <div className={styles.header}>
@@ -21,7 +23,7 @@ const Privacy = () => {
         </Link>
       </div>
       <Document
-        title="MetaModern LLC. Privacy policy"
+        title={privacyPolicy}
         date={dateUpdate}
         description={description}
       />

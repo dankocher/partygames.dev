@@ -1,28 +1,16 @@
 @import "./constants.scss";
 
-// @media (max-width: 1000px) {
-//   header {
-//     position: absolute !important;
-//   }
-// }
-
 .container {
   display: flex;
   justify-content: center;
-  // padding-bottom: $footerHeightLg;
 
   background-color: #ffffff;
-
-  // @media (max-width: $footerPoint) {
-  //   padding-bottom: $footerHeightMob;
-  // }
 
   .content {
     width: autoResize(288px, 800px, 320px, $mdDevice);
     flex-direction: column;
     color: $neutral900;
     padding-top: 88px;
-    // padding-bottom: 144px;
 
     @media (max-width: 1230px) {
       padding-top: 30px;

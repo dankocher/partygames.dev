@@ -1,19 +1,15 @@
 import styles from "./index.module.scss";
 
 import { Link } from "react-router-dom";
-import { Document } from "../../components/Document";
+
 import Footer from "../../components/Footer";
 
 import mainLogo from "../../assets/svg/mainLogoDark.svg";
 
-import info from "../../data/privacy.json";
 import { SCREENS } from "../../navigation/constants";
 
-const Privacy = () => {
-  const { description, dateUpdate } = info.main.privacy;
-
+const DocumentWrapper = ({ children }) => {
   const altMainLogo = "PARTY GAMES Logo";
-  const privacyPolicy = "PartyGames LLC. Privacy Policy ";
 
   return (
     <div className={styles.container}>
@@ -22,11 +18,7 @@ const Privacy = () => {
           <img src={mainLogo} alt={altMainLogo} className={styles.logo} />
         </Link>
       </div>
-      <Document
-        title={privacyPolicy}
-        date={dateUpdate}
-        description={description}
-      />
+      {children}
       <div className={styles.footer}>
         <Footer />
       </div>
@@ -34,4 +26,4 @@ const Privacy = () => {
   );
 };
 
-export default Privacy;
+export default DocumentWrapper;

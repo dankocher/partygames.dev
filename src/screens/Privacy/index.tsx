@@ -13,7 +13,7 @@ const Privacy = () => {
   const { description, dateUpdate } = info.main.privacy;
 
   const altMainLogo = "PARTY GAMES Logo";
-  const privacyPolicy = "Privacy policy";
+  const privacyPolicy = "PartyGames LLC. Privacy Policy ";
 
   return (
     <div className={styles.container}>

@@ -6,7 +6,7 @@ import info from "../../data/privacyNeverEver.json";
 const PrivacyNeverEver = () => {
   const { description, dateUpdate } = info.main.privacy;
 
-  const privacyPolicy = "Never Have I Ever. Privacy Policy ";
+  const privacyPolicy = "Never Have I Ever. Privacy Policy";
 
   return (
     <DocumentWrapper>

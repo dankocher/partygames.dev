@@ -1,12 +1,12 @@
 import DocumentWrapper from "../../components/DocumentWrapper";
 import { Document } from "../../components/Document";
 
-import info from "../../data/privacyPartyGames.json";
+import info from "../../data/termsNeverEver.json";
 
-const PrivacyPartyGames = () => {
+const TermsNeverEver = () => {
   const { description, dateUpdate } = info.main.privacy;
 
-  const privacyPolicy = "PartyGames LLC. Privacy Policy";
+  const privacyPolicy = "Never Have I Ever. Terms of Use";
 
   return (
     <DocumentWrapper>
@@ -19,4 +19,4 @@ const PrivacyPartyGames = () => {
   );
 };
 
-export default PrivacyPartyGames;
+export default TermsNeverEver;

@@ -21,7 +21,12 @@
             "title": "For the purposes of this Privacy Policy:",
             "items": [
               "<a href=\"https://policies.google.com/privacy\">Google Play Services</a>",
-              "<a href=\"https://firebase.google.com/policies/analytics\">Google Analytics for Firebase</a>"
+              "<a href=\"https://firebase.google.com/policies/analytics\">Google Analytics for Firebase</a>",
+              "<a href=\"https://support.google.com/admob/answer/6128543?hl=en\">AdMob</a>",
+              "<a href=\"https://www.is.com/privacy-policy/\">ironSource</a>",
+              "<a href=\"https://www.facebook.com/about/privacy/\">Facebook Audience Network</a>",
+              "<a href=\"https://unity3d.com/ru/legal/privacy-policy\">Unity</a>",
+              "<a href=\"https://www.applovin.com/privacy/\">Applovin</a>"
             ]
           }
         },

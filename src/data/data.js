@@ -27,8 +27,8 @@ export const data = [
       isBoldFirst: true,
     },
     link: {
-      googlePlay: "",
-      appStore: "",
+      googlePlay: "https://play.google.com/store/apps/details?id=dev.partygames.neverever",
+      appStore: "https://apps.apple.com/app/never-ever-party-game/id1631145256",
     },
     background: img_1,
   },

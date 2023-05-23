@@ -4,6 +4,9 @@ import neverEver3 from "../assets/images/neverEver@3x.png";
 import mostLikely from "../assets/images/mostLikely.png";
 import mostLikely2 from "../assets/images/mostLikely@2x.png";
 import mostLikely3 from "../assets/images/mostLikely@3x.png";
+import timeZo from "../assets/images/timeZo.png";
+import timeZo2 from "../assets/images/timeZo@2x.png";
+import timeZo3 from "../assets/images/timeZo@3x.png";
 import truthOrDare from "../assets/images/truthOrDare.png";
 import wouldYouRather from "../assets/images/wouldYouRather.png";
 
@@ -27,7 +30,8 @@ export const data = [
       isBoldFirst: true,
     },
     link: {
-      googlePlay: "https://play.google.com/store/apps/details?id=dev.partygames.neverever",
+      googlePlay:
+        "https://play.google.com/store/apps/details?id=dev.partygames.neverever",
       appStore: "https://apps.apple.com/app/never-ever-party-game/id1631145256",
     },
     background: img_1,
@@ -54,6 +58,27 @@ export const data = [
       appStore: "",
     },
     background: img_2,
+  },
+  {
+    logo: { x1: timeZo, x2: timeZo2, x3: timeZo3 },
+    title: "TimeZo",
+    description: {
+      text: [
+        "TimeZo ",
+        "is the most ",
+        "convenient ",
+        "and ",
+        "fastest ",
+        "way to keep your head clean.",
+      ],
+      isBoldFirst: true,
+    },
+    link: {
+      googlePlay:
+        "https://play.google.com/store/apps/details?id=dev.metamodern.timezo",
+      appStore: "https://apps.apple.com/app/id1621716913",
+    },
+    background: img_3,
   },
   // {
   //   logo: truthOrDare,

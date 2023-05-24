@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a864a23c.css",
-    "main.js": "/static/js/main.f5516302.js",
+    "main.js": "/static/js/main.bf27034b.js",
     "static/js/787.864394a3.chunk.js": "/static/js/787.864394a3.chunk.js",
     "static/media/background_1.webp": "/static/media/background_1.3bc6713310c51b41baed.webp",
     "static/media/background_3.webp": "/static/media/background_3.2242d91b1a92eaf3a127.webp",
@@ -15,17 +15,19 @@
     "static/media/neverEver.png": "/static/media/neverEver.58af79780a2b43dbbaf3.png",
     "static/media/wouldYouRather.png": "/static/media/wouldYouRather.a0758db4870ce5c112b4.png",
     "static/media/truthOrDare.png": "/static/media/truthOrDare.6acbf2a6f060311a4b58.png",
+    "static/media/timeZo@3x.png": "/static/media/timeZo@3x.27be7eac82a8895729bb.png",
+    "static/media/timeZo@2x.png": "/static/media/timeZo@2x.c9d92500f51774676a05.png",
     "static/media/mainLogoDark.svg": "/static/media/mainLogoDark.1354d16c57ea0e673abcc6c31e550935.svg",
     "static/media/mainLogo.svg": "/static/media/mainLogo.b81094fda090adb9a303055f52c88eb8.svg",
     "index.html": "/index.html",
     "static/media/app-store.svg": "/static/media/app-store.648fab6adb7d1d0b5339468a6a0310ea.svg",
     "static/media/google-play.svg": "/static/media/google-play.3ca4c5158ab568bb31974be84c01ea12.svg",
     "main.a864a23c.css.map": "/static/css/main.a864a23c.css.map",
-    "main.f5516302.js.map": "/static/js/main.f5516302.js.map",
+    "main.bf27034b.js.map": "/static/js/main.bf27034b.js.map",
     "787.864394a3.chunk.js.map": "/static/js/787.864394a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a864a23c.css",
-    "static/js/main.f5516302.js"
+    "static/js/main.bf27034b.js"
   ]
 }

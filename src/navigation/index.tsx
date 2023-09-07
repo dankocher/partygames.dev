@@ -6,6 +6,7 @@ import PrivacyNeverEver from "../screens/PrivacyNeverEver";
 import PrivacyTimeZo from "../screens/PrivacyTimeZo";
 import RedirectTimeZo from "../screens/RedirectTimeZo";
 import TermsNeverEver from "../screens/TermsNeverEver";
+import PrivacyToD from "../screens/PrivacyToD";
 
 import { SCREENS } from "./constants";
 
@@ -20,6 +21,7 @@ const Navigation = () => (
       <Route path={SCREENS.NEVER_EVER_TERMS} element={<TermsNeverEver />} />
       <Route path={SCREENS.TIMEZO_PRIVACY} element={<PrivacyTimeZo />} />
       <Route path={SCREENS.TIMEZO_REDIRECT} element={<RedirectTimeZo />} />
+      <Route path={SCREENS.TOD_PRIVACY} element={<PrivacyToD />} />
 
       <Route path="*" element={<Navigate to={SCREENS.HOME} replace />} />
     </Routes>

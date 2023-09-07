@@ -7,8 +7,13 @@ import mostLikely3 from "../assets/images/mostLikely@3x.png";
 import timeZo from "../assets/images/timeZo.png";
 import timeZo2 from "../assets/images/timeZo@2x.png";
 import timeZo3 from "../assets/images/timeZo@3x.png";
-import truthOrDare from "../assets/images/truthOrDare.png";
-import wouldYouRather from "../assets/images/wouldYouRather.png";
+import ToD from "../assets/images/ToD.png";
+import ToD2 from "../assets/images/ToD@2x.png";
+import ToD3 from "../assets/images/ToD@3x.png";
+// import truthOrDare from "../assets/images/truthOrDare.png";
+// import truthOrDare2 from "../assets/images/truthOrDare@2x.png";
+// import truthOrDare3 from "../assets/images/truthOrDare@3x.png";
+// import wouldYouRather from "../assets/images/wouldYouRather.png";
 
 import img_1 from "../assets/images/background_1.webp";
 import img_2 from "../assets/images/background_2.webp";
@@ -80,29 +85,30 @@ export const data = [
     },
     background: img_3,
   },
-  // {
-  //   logo: truthOrDare,
-  //   title: "Truth or dare",
-  //   description: {
-  //     text: [
-  //       "Truth or Dare ",
-  //       "is ",
-  //       "the best ",
-  //       "social ",
-  //       "game ",
-  //       "that has been around for centuries. It was loved by Kings and Emperors, even the Dukes didn't miss out on it. ",
-  //       "Now it's your turn! ",
-  //       "Download the ",
-  //       "Eighth Wonder of the World.",
-  //     ],
-  //     isBoldFirst: true,
-  //   },
-  //   link: {
-  //     googlePlay: null,
-  //     appStore: null,
-  //   },
-  //   background: img_3,
-  // },
+  {
+    logo: { x1: ToD, x2: ToD2, x3: ToD3 },
+    title: "Truth or dare",
+    description: {
+      text: [
+        "Truth or Dare ",
+        "is ",
+        "the best ",
+        "social ",
+        "game ",
+        "that has been around for centuries. It was loved by Kings and Emperors, even the Dukes didn't miss out on it. ",
+        "Now it's your turn! ",
+        "Download the ",
+        "Eighth Wonder of the World.",
+      ],
+      isBoldFirst: true,
+    },
+    link: {
+      googlePlay: null,
+      appStore:
+        "https://apps.apple.com/app/truth-or-dare-dirty-dares/id1591624348",
+    },
+    background: img_4,
+  },
   // {
   //   logo: wouldYouRather,
   //   title: "Would you rather",

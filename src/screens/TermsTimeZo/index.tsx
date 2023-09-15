@@ -1,12 +1,12 @@
 import DocumentWrapper from "../../components/DocumentWrapper";
 import { Document } from "../../components/Document";
 
-import info from "../../data/termsNeverEver.json";
+import info from "../../data/termsTimeZo.json";
 
-const TermsNeverEver = () => {
+const termsTimeZo = () => {
   const { description, dateUpdate } = info.main.terms;
 
-  const termsOfUse = "Never Have I Ever. Terms of Use";
+  const termsOfUse = "TimeZo. Terms of Use";
 
   return (
     <DocumentWrapper>
@@ -19,4 +19,4 @@ const TermsNeverEver = () => {
   );
 };
 
-export default TermsNeverEver;
+export default termsTimeZo;

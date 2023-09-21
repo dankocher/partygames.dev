@@ -10,6 +10,7 @@ import timeZo3 from "../assets/images/timeZo@3x.png";
 import ToD from "../assets/images/ToD.png";
 import ToD2 from "../assets/images/ToD@2x.png";
 import ToD3 from "../assets/images/ToD@3x.png";
+import { Urls } from "../constants/urls";
 // import truthOrDare from "../assets/images/truthOrDare.png";
 // import truthOrDare2 from "../assets/images/truthOrDare@2x.png";
 // import truthOrDare3 from "../assets/images/truthOrDare@3x.png";
@@ -35,9 +36,8 @@ export const data = [
       isBoldFirst: true,
     },
     link: {
-      googlePlay:
-        "https://play.google.com/store/apps/details?id=dev.partygames.neverever",
-      appStore: "https://apps.apple.com/app/never-ever-party-game/id1631145256",
+      googlePlay: Urls.NeverEver.GoogleStoreUrl,
+      appStore: Urls.NeverEver.AppleStoreUrl,
     },
     background: img_1,
   },
@@ -59,8 +59,8 @@ export const data = [
       isBoldFirst: true,
     },
     link: {
-      googlePlay: "",
-      appStore: "",
+      googlePlay: Urls.MostLikely.GoogleStoreUrl,
+      appStore: Urls.MostLikely.AppleStoreUrl,
     },
     background: img_2,
   },
@@ -79,9 +79,8 @@ export const data = [
       isBoldFirst: true,
     },
     link: {
-      googlePlay:
-        "https://play.google.com/store/apps/details?id=dev.metamodern.timezo",
-      appStore: "https://apps.apple.com/app/id1621716913",
+      googlePlay: Urls.TimeZo.GoogleStoreUrl,
+      appStore: Urls.TimeZo.AppleStoreUrl,
     },
     background: img_3,
   },
@@ -103,9 +102,8 @@ export const data = [
       isBoldFirst: true,
     },
     link: {
-      googlePlay: null,
-      appStore:
-        "https://apps.apple.com/app/truth-or-dare-dirty-dares/id1591624348",
+      googlePlay: Urls.ToD.GoogleStoreUrl,
+      appStore: Urls.ToD.AppleStoreUrl,
     },
     background: img_4,
   },

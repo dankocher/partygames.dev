@@ -3,6 +3,7 @@ export enum SCREENS {
   PRIVACY = "/privacy",
   NEVER_EVER_PRIVACY = "/NeverEver/privacy",
   NEVER_EVER_TERMS = "/NeverEver/terms",
+  NEVER_EVER_REDIRECT = "/NeverEver/game",
   TIMEZO_PRIVACY = "/TimeZo/privacy",
   TIMEZO_TERMS = "/TimeZo/terms",
   TIMEZO_REDIRECT = "/TimeZo/game",

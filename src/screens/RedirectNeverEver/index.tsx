@@ -3,7 +3,7 @@ import { isAndroid, isIOS } from "react-device-detect";
 
 import { Urls } from "../../constants/urls";
 
-const RedirectTimeZo = () => {
+const RedirectNeverEver = () => {
   useEffect(() => {
     if (isIOS) {
       window.location.replace(Urls.NeverEver.AppleStoreUrl);
@@ -17,4 +17,4 @@ const RedirectTimeZo = () => {
   return <div />;
 };
 
-export default RedirectTimeZo;
+export default RedirectNeverEver;

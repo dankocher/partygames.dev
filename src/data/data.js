@@ -10,11 +10,11 @@ import timeZo3 from "../assets/images/timeZo@3x.png";
 import ToD from "../assets/images/ToD.png";
 import ToD2 from "../assets/images/ToD@2x.png";
 import ToD3 from "../assets/images/ToD@3x.png";
+import contractions from "../assets/images/contractions.png";
+import contractions2 from "../assets/images/contractions@2x.png";
+import contractions3 from "../assets/images/contractions@3x.png";
+
 import { Urls } from "../constants/urls";
-// import truthOrDare from "../assets/images/truthOrDare.png";
-// import truthOrDare2 from "../assets/images/truthOrDare@2x.png";
-// import truthOrDare3 from "../assets/images/truthOrDare@3x.png";
-// import wouldYouRather from "../assets/images/wouldYouRather.png";
 
 import img_1 from "../assets/images/background_1.webp";
 import img_2 from "../assets/images/background_2.webp";
@@ -107,24 +107,20 @@ export const data = [
     },
     background: img_4,
   },
-  // {
-  //   logo: wouldYouRather,
-  //   title: "Would you rather",
-  //   description: {
-  //     text: [
-  //       "Would you rather ",
-  //       "have eyes the size of a baseball or the size of a pea? That's a silly question. Don't get lost in your thoughts just yet. For starters, try creating a ",
-  //       "cosy environment, ",
-  //       "start the game and then ",
-  //       "make the right decision! ",
-  //       "Let's go!",
-  //     ],
-  //     isBoldFirst: true,
-  //   },
-  //   link: {
-  //     googlePlay: null,
-  //     appStore: null,
-  //   },
-  //   background: img_4,
-  // },
+  {
+    logo: { x1: contractions, x2: contractions2, x3: contractions3 },
+    title: "Contraction Counter & Tracker",
+    description: {
+      text: [
+        "Text ",
+        "Text",
+      ],
+      isBoldFirst: true,
+    },
+    link: {
+      googlePlay: Urls.Contractions.GoogleStoreUrl,
+      appStore: Urls.Contractions.AppleStoreUrl,
+    },
+    background: img_4,
+  },
 ];

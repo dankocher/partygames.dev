@@ -9,6 +9,8 @@ import TermsTimeZo from "../screens/TermsTimeZo";
 import RedirectTimeZo from "../screens/RedirectTimeZo";
 import TermsNeverEver from "../screens/TermsNeverEver";
 import PrivacyToD from "../screens/PrivacyToD";
+import PrivacyContractions from  "../screens/PrivacyContractions";
+import TermsContractions from  "../screens/TermsContractions";
 
 import { SCREENS } from "./constants";
 
@@ -29,9 +31,12 @@ const Navigation = () => (
       <Route path={SCREENS.TIMEZO_TERMS} element={<TermsTimeZo />} />
       <Route path={SCREENS.TIMEZO_REDIRECT} element={<RedirectTimeZo />} />
       <Route path={SCREENS.TOD_PRIVACY} element={<PrivacyToD />} />
+      <Route path={SCREENS.CONTRACTIONS_PRIVACY} element={<PrivacyContractions />} />
+      <Route path={SCREENS.CONTRACTIONS_TERMS} element={<TermsContractions />} />
 
       <Route path="*" element={<Navigate to={SCREENS.HOME} replace />} />
     </Routes>
   </ScrollToTop>
 );
+
 export default Navigation;

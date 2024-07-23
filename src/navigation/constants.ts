@@ -8,4 +8,6 @@ export enum SCREENS {
   TIMEZO_TERMS = "/TimeZo/terms",
   TIMEZO_REDIRECT = "/TimeZo/game",
   TOD_PRIVACY = "/ToD/privacy",
+  CONTRACTIONS_PRIVACY = "/contractions/privacy",
+  CONTRACTIONS_TERMS = "/contractions/terms",
 }

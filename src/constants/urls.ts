@@ -23,4 +23,8 @@ export const Urls = {
       "https://apps.apple.com/app/truth-or-dare-dirty-dares/id1591624348",
     WebsiteUrl: "https://partygames.dev",
   },
+  Contractions: {
+    GoogleStoreUrl: "https://play.google.com/store/apps/details?id=dev.partygames.contractions",
+    AppleStoreUrl: "https://apps.apple.com/app/id6508167691",
+  },
 };

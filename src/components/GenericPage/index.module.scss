@@ -15,7 +15,6 @@
 }
 
 .content {
-  max-width: 702px;
   height: fit-content;
   display: grid;
   place-items: center;
@@ -39,6 +38,7 @@
   }
 
   &__description {
+    max-width: 702px;
     margin-bottom: 80px;
     margin-bottom: autoResize(40px, 80px, $phoneWidth) !important;
     text-align: center;

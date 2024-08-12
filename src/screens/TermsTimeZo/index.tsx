@@ -6,7 +6,7 @@ import info from "../../data/termsTimeZo.json";
 const termsTimeZo = () => {
   const { description, dateUpdate } = info.main.terms;
 
-  const termsOfUse = "TimeZo. Terms of Use";
+  const termsOfUse = "World Clock - TimeZo. Terms of Use";
 
   return (
     <DocumentWrapper>

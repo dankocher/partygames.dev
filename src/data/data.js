@@ -112,15 +112,15 @@ export const data = [
     title: "Contraction Counter & Tracker",
     description: {
       text: [
-        "Text ",
-        "Text",
+        "Contraction Counter & Tracker",
+        " - Track and manage your contractions effortlessly.",
       ],
       isBoldFirst: true,
     },
     link: {
-      googlePlay: Urls.Contractions.GoogleStoreUrl,
+      // googlePlay: Urls.Contractions.GoogleStoreUrl,
       appStore: Urls.Contractions.AppleStoreUrl,
     },
-    background: img_4,
+    background: img_3,
   },
 ];

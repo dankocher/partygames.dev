@@ -6,7 +6,7 @@ import info from "../../data/termsNeverEver.json";
 const TermsNeverEver = () => {
   const { description, dateUpdate } = info.main.terms;
 
-  const termsOfUse = "Never Have I Ever. Terms of Use";
+  const termsOfUse = "Did You Ever. Terms of Use";
 
   return (
     <DocumentWrapper>

@@ -24,10 +24,10 @@ import img_4 from "../assets/images/background_4.webp";
 export const data = [
   {
     logo: { x1: neverEver, x2: neverEver2, x3: neverEver3 },
-    title: "never have i ever",
+    title: "Did You Ever",
     description: {
       text: [
-        "Never have I ever... ",
+        "Did You Ever... ",
         "Stop ",
         "racking your brain ",
         "to complete this statement. Just download our game. It will make even the most boring ",

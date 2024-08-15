@@ -51,7 +51,7 @@ export const Document = ({ title, description, date }) => {
                               return (
                                 <p key={index.toString()}>
                                   {strings[0]}
-                                  <br />
+                                  <br/>
                                   {strings[1]}
                                 </p>
                               );
@@ -80,7 +80,7 @@ export const Document = ({ title, description, date }) => {
                                       {strings.map((element) => (
                                         <>
                                           {element}
-                                          <br />
+                                          <br/>
                                         </>
                                       ))}
                                     </li>
@@ -96,10 +96,13 @@ export const Document = ({ title, description, date }) => {
                         </>
                       );
                     }
+
+                    return <p/>
                   })}
                 </div>
               );
             }
+            return <p/>
           })}
         </div>
       </div>

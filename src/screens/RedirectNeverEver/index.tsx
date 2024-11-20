@@ -1,20 +1,20 @@
 import React, { useEffect } from "react";
-import { isAndroid, isIOS } from "react-device-detect";
-
-import { Urls } from "../../constants/urls";
 
 const RedirectNeverEver = () => {
   useEffect(() => {
-    if (isIOS) {
-      window.location.replace(Urls.NeverEver.AppleStoreUrl);
-    } else if (isAndroid) {
-      window.location.replace(Urls.NeverEver.GoogleStoreUrl);
-    } else {
-      window.location.replace(Urls.NeverEver.WebsiteUrl);
-    }
+    // if (isIOS) {
+    //   window.location.replace(Urls.NeverEver.AppleStoreUrl);
+    // } else if (isAndroid) {
+    //   window.location.replace(Urls.NeverEver.GoogleStoreUrl);
+    // } else {
+    // window.location.replace(Urls.NeverEver.WebsiteUrl);
+    // }
+
+    /// Because NeverEver on Metamodern Store - 20 November 2024
+    window.location.replace("https://metamodern.dev/");
   }, []);
 
-  return <div />;
+  return <div/>;
 };
 
 export default RedirectNeverEver;
